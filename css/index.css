@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url("/images/mountain2-1.jpg");
+    background-color: #a0e9e1;
 
 
 }
@@ -11,52 +11,31 @@ body{
 .name {
     
     font-family: 'Great Vibes', cursive;
-    text-align: center;
-    position: relative;
     color: rgb(6, 11, 110);
-    top: 6rem;
-    font-size: 5rem;
-    left: 14rem;
-    display: inline;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 10%;
+   
 }
 
 #p1{
-
-    display: inline;
-    font-size: xxx-large;
-   font-family: monospace;
-    color: honeydew;
-    position: absolute;
-    margin-top: 13rem;
-    margin-left: -16rem;
-}
-
-#p2{
- 
-    color:rgb(20, 255, 141);
+    
+    font-size: xx-large;
+    font-family: monospace;
+    color: #9d00b8;
+    text-align: center;
     
 }
 
-.cir1
-{
-    display: inline;
-    position: absolute;
-    margin-top: 32rem;
-    margin-left: -38rem;
-    margin-right: auto;
+#p2{
+    color: rgb(8 121 66);
+    
 }
-.cir2
-{
-    display: inline;
-    position: absolute;
-    margin-top: 32rem;
-    margin-left: -36.2rem;
-    /* margin-right: auto; */
-}
+
 
 .bullets{
 
-    margin-top: 47rem;
+    margin-top: 5%;
     border-style: dotted;
     border-width: 10px; 
     border-bottom: none;
@@ -98,29 +77,35 @@ body{
 
 
 .gt{
-    position: absolute;
-    margin-left: 42.6rem;
-    margin-top: 2.5rem;
-    font-family: monospace;
-    font-size: x-large;
-    color: ghostwhite;
-    border: 1px solid rgb(39, 238, 52);
-    border-radius: 10px;
-    display: inline-block;
-    padding: 0 4px 4px;
+    
+        /* border: 1px solid rgb(39, 238, 52); */
+        width: fit-content;
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 5%;
+        color: teal;
+        border-radius: 34px;
+        font-size: x-large;
+        /* font-style: normal; */
+        text-decoration-thickness: 1px;
+        text-decoration: underline;
+        text-decoration-thickness: from-font;
+        font-family: cursive;
+   
 }
 
 .gint{
-    position: absolute;
-    /* border: 1px solid yellowgreen; */
-    display: inline-block;
-    padding: 0 56px;
-    margin-left: 31rem;
-    margin-top: 97px;
+
+
+    margin-top: 5%;
+    margin-left: 30%;
+   
 }
 
+
 .ic{
-    margin-left: 61px;
+    /* border: 1px solid black; */
+    margin-left: 6.5%;
 }
 
 .footer
@@ -136,4 +121,74 @@ body{
     text-decoration-color: darkblue;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+.lap{
+        /* border: 1px solid #cf5b5b; */
+        display: block;
+        margin: auto;
+}
+
+.code1{
+        /* border: 1px solid red;
+        width: 200px;
+        margin-left: 15%;
+        margin-top: 15%; */
+        width: 15%;
+        margin-right: 2%;
+    }
+    .code2{
+        /* border: 1px solid red;
+        width: 200px;
+        margin-left: 15%;
+        margin-top: 15%; */
+        width: 15%;
+        margin-left: 2%;
+}
+
+.p1{
+          /* height: 10%; */
+    /* border: 1px solid red; */
+    /* margin-left: 2rem; */
+    /* margin-bottom: 10%; */
+    width: 50%;
+    padding-top: 5%;
+}
+
+.box1{
+        /* border: 1px solid blue; */
+        display: flex;
+        margin-left: 10%;
+        margin-top: 5%;
+}
+.box2{
+        /* border: 1px solid blue; */
+        display: flex;
+        margin-left: 10%;
+        margin-top: 5%;
+}
+
+.line{
+    color: cadetblue;
+    margin-top: 5%;
+    border: 1px solid;
+    border-width: 2px;
+    color: steelblue;
+    width: 50%;
+}
+.line2{
+        color: cadetblue;
+    /* margin-top: 5%; */
+    /* border: 1px solid; */
+    /* border-width: 2px; */
+    /* color: steelblue; */
+    display: inline-block;
+    width: 1px;
+    height: 4rem;
+    background-color: darkmagenta;
+}
+
+.vr{
+    border: 1px solid red;
 }

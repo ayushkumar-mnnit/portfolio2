@@ -43,30 +43,43 @@ body{
     size: 25px;
     color: rgb(57, 199, 199);
 }
-.btn
-{
-    display: inline;
-    position: absolute;
-    margin-top: 52rem;
-    /* padding: 0 37px; */
-    /* border: 1px solid greenyellow; */
-    margin-left: -36rem;
-    
-    
-}
+
 
 
 
 .bt{
-    border: 1px solid yellowgreen;
+    border: 1px solid #6c199e;
     margin-left: 20px;
-    background: linear-gradient(45deg, rgb(20 255 157), transparent);
+    background: linear-gradient(45deg, rgb(44 255 167), transparent);
     width: 89px;
     height: 33px;
     font-size: medium;
     font-family: cursive;
     border-radius: 20px;
 }
+
+
+.bt2{
+   border: 1px solid rebeccapurple;
+       /* border: 1px solid rebeccapurple; */
+       margin: auto;
+       display: block;
+       margin-top: 5%;
+       border: 1px solid;
+       border-radius: 0.3rem;
+       width: 5%;
+       height: 4%;
+}
+
+.hire
+{
+    text-decoration: none;
+    color: green;
+    font-size: larger;
+    font-family: math;
+}
+
+
 
 .bt a{
     text-decoration: none;
@@ -112,14 +125,14 @@ body{
 {
       
       height: fit-content;
-      margin-top: 13rem;
+      margin-top: 5%;
 }
 
 .cp{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: darkblue;
-    font-size: larger;
+    font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -131,27 +144,18 @@ body{
 }
 
 .code1{
-        /* border: 1px solid red;
-        width: 200px;
-        margin-left: 15%;
-        margin-top: 15%; */
+        
         width: 15%;
-        margin-right: 2%;
+        margin-right: 5%;
     }
     .code2{
-        /* border: 1px solid red;
-        width: 200px;
-        margin-left: 15%;
-        margin-top: 15%; */
+      
         width: 15%;
         margin-left: 2%;
 }
 
 .p1{
-          /* height: 10%; */
-    /* border: 1px solid red; */
-    /* margin-left: 2rem; */
-    /* margin-bottom: 10%; */
+     
     width: 50%;
     padding-top: 5%;
 }
@@ -169,26 +173,70 @@ body{
         margin-top: 5%;
 }
 
-.line{
-    color: cadetblue;
-    margin-top: 5%;
-    border: 1px solid;
-    border-width: 2px;
-    color: steelblue;
+
+
+
+.p11
+{
     width: 50%;
-}
-.line2{
-        color: cadetblue;
-    /* margin-top: 5%; */
-    /* border: 1px solid; */
-    /* border-width: 2px; */
-    /* color: steelblue; */
-    display: inline-block;
-    width: 1px;
-    height: 4rem;
-    background-color: darkmagenta;
+    padding-top: 5%;
 }
 
-.vr{
-    border: 1px solid red;
+.p12{
+     
+    width: 50%;
+    padding-top: 3%;
+}
+
+.proj{
+    text-decoration: none;
+}
+
+
+.cld1{
+       /* border: 1px solid red; */
+       display: block;
+       margin-left: 30%;
+       margin-top: 5%;
+}
+.cld2{
+    margin-left: 60%;
+    /* border: 1px solid rgb(35, 84, 182); */
+    /* margin-bottom: 5%; */
+    display: block;
+}
+
+.getpara{
+    
+    text-align: center;
+    margin-top: 5%;
+    font-family: ui-serif;
+    font-size: large;
+}
+
+
+.contact{
+    background-color: #a0e9e1;
+    /* background-color: #a0e9e1; */
+    display: grid;
+    /* width: 50%; */
+    margin-left: 40%;
+    margin-top: 10%;
+    grid-auto-columns: 40%;
+}
+
+.sub{
+    border: 1px solid rgb(13, 78, 198);
+    /* border: 1px solid greenyellow; */
+    width: 30%;
+    display: block;
+    margin: auto;
+    font-size: large;
+    font-family: math;
+}
+
+.sub:hover{
+    cursor: pointer;
+    background-color: rgb(43, 213, 43);
+    color: azure;
 }
